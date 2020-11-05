@@ -21,7 +21,7 @@ metadata_edit_url: http://prose.io/#open-sdg/open-sdg-data-starter/edit/develop/
 languages:
   - en
   - es
-#
+# Keeping default languages 10.2020
 # That's enough for the Quick Start! The remaining settings can be configured later.
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
