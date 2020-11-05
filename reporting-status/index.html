@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'https://myholder.github.io/vs-sdg-data/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -105,13 +105,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
+        <script src="/vs-sdg-site/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/vs-sdg-site/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/vs-sdg-site/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -121,7 +121,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20201105032936">
+        <link rel="stylesheet" href="/vs-sdg-site/assets/css/style.css?v=20201105061243">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -153,8 +153,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/open-sdg-site-starter/" id="home">
-        <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/vs-sdg-site/" id="home">
+        <img src="/vs-sdg-site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
       </a>
 
       <div class="mobile-widgets">
@@ -166,7 +166,7 @@ var translations = {
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/reporting-status/">
+            <a href="/vs-sdg-site/es/reporting-status/">
               Español
             </a>
           </li></ul>
@@ -184,17 +184,17 @@ var translations = {
             aria-haspopup="true">
           <button data-target="menu-mobile" aria-expanded="false">Menu</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/vs-sdg-site/goals">Goals</a>
     </li><li class="nav-link active">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/vs-sdg-site/reporting-status">Reporting Status</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/vs-sdg-site/about">About</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/vs-sdg-site/guidance">Guidance</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/vs-sdg-site/faq">FAQ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/vs-sdg-site/news">Updates</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -209,7 +209,7 @@ var translations = {
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/reporting-status/">
+            <a href="/vs-sdg-site/es/reporting-status/">
               Español
             </a>
           </li></ul>
@@ -226,7 +226,7 @@ var translations = {
             aria-haspopup="true">
           <button data-target="search-mobile" aria-expanded="false">Search</button>
           <div id="search-mobile" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
+  <form action="/vs-sdg-site/search">
     <input type="text" name="q" id="indicator_search-mobile" title="Search" />
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -237,7 +237,7 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
+  <form action="/vs-sdg-site/search">
     <input type="text" name="q" id="indicator_search" title="Search" />
     <label class="sr-only" for="indicator_search">Search</label>
     <button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -246,17 +246,17 @@ var translations = {
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/vs-sdg-site/goals">Goals</a>
     </li><li class="nav-link active">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/vs-sdg-site/reporting-status">Reporting Status</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/vs-sdg-site/about">About</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/vs-sdg-site/guidance">Guidance</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/vs-sdg-site/faq">FAQ</a>
     </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/vs-sdg-site/news">Updates</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -271,7 +271,7 @@ var translations = {
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/reporting-status/">
+            <a href="/vs-sdg-site/es/reporting-status/">
               Español
             </a>
           </li></ul>
@@ -341,13 +341,13 @@ var translations = {
 
   <div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/1">
+          <a href="/vs-sdg-site/1">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/1.png" alt="No poverty - Goal 1" width="100" height="100" id="goal-1"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/1">No poverty</a>
+            <a href="/vs-sdg-site/1">No poverty</a>
             <span class="total">14 indicators</span>
           </h3>
           <div class="summary">
@@ -381,13 +381,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/2">
+          <a href="/vs-sdg-site/2">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/2.png" alt="Zero hunger - Goal 2" width="100" height="100" id="goal-2"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/2">Zero hunger</a>
+            <a href="/vs-sdg-site/2">Zero hunger</a>
             <span class="total">13 indicators</span>
           </h3>
           <div class="summary">
@@ -421,13 +421,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/3">
+          <a href="/vs-sdg-site/3">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" width="100" height="100" id="goal-3"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/3">Good health and well-being</a>
+            <a href="/vs-sdg-site/3">Good health and well-being</a>
             <span class="total">27 indicators</span>
           </h3>
           <div class="summary">
@@ -461,13 +461,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/4">
+          <a href="/vs-sdg-site/4">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/4.png" alt="Quality education - Goal 4" width="100" height="100" id="goal-4"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/4">Quality education</a>
+            <a href="/vs-sdg-site/4">Quality education</a>
             <span class="total">11 indicators</span>
           </h3>
           <div class="summary">
@@ -501,13 +501,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/5">
+          <a href="/vs-sdg-site/5">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/5.png" alt="Gender equality - Goal 5" width="100" height="100" id="goal-5"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/5">Gender equality</a>
+            <a href="/vs-sdg-site/5">Gender equality</a>
             <span class="total">14 indicators</span>
           </h3>
           <div class="summary">
@@ -541,13 +541,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/6">
+          <a href="/vs-sdg-site/6">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/6.png" alt="Clean water and sanitation - Goal 6" width="100" height="100" id="goal-6"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/6">Clean water and sanitation</a>
+            <a href="/vs-sdg-site/6">Clean water and sanitation</a>
             <span class="total">11 indicators</span>
           </h3>
           <div class="summary">
@@ -581,13 +581,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/7">
+          <a href="/vs-sdg-site/7">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/7.png" alt="Affordable and clean energy - Goal 7" width="100" height="100" id="goal-7"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/7">Affordable and clean energy</a>
+            <a href="/vs-sdg-site/7">Affordable and clean energy</a>
             <span class="total">6 indicators</span>
           </h3>
           <div class="summary">
@@ -621,13 +621,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/8">
+          <a href="/vs-sdg-site/8">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/8.png" alt="Decent jobs and economic growth - Goal 8" width="100" height="100" id="goal-8"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/8">Decent jobs and economic growth</a>
+            <a href="/vs-sdg-site/8">Decent jobs and economic growth</a>
             <span class="total">17 indicators</span>
           </h3>
           <div class="summary">
@@ -661,13 +661,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/9">
+          <a href="/vs-sdg-site/9">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/9.png" alt="Industry, innovation and infrastructure - Goal 9" width="100" height="100" id="goal-9"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/9">Industry, innovation and infrastructure</a>
+            <a href="/vs-sdg-site/9">Industry, innovation and infrastructure</a>
             <span class="total">12 indicators</span>
           </h3>
           <div class="summary">
@@ -701,13 +701,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/10">
+          <a href="/vs-sdg-site/10">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/10.png" alt="Reduced inequalities - Goal 10" width="100" height="100" id="goal-10"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/10">Reduced inequalities</a>
+            <a href="/vs-sdg-site/10">Reduced inequalities</a>
             <span class="total">11 indicators</span>
           </h3>
           <div class="summary">
@@ -741,13 +741,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/11">
+          <a href="/vs-sdg-site/11">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/11.png" alt="Sustainable cities &amp; communities - Goal 11" width="100" height="100" id="goal-11"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/11">Sustainable cities & communities</a>
+            <a href="/vs-sdg-site/11">Sustainable cities & communities</a>
             <span class="total">15 indicators</span>
           </h3>
           <div class="summary">
@@ -781,13 +781,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/12">
+          <a href="/vs-sdg-site/12">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/12.png" alt="Responsible consumption and production - Goal 12" width="100" height="100" id="goal-12"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/12">Responsible consumption and production</a>
+            <a href="/vs-sdg-site/12">Responsible consumption and production</a>
             <span class="total">13 indicators</span>
           </h3>
           <div class="summary">
@@ -821,13 +821,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/13">
+          <a href="/vs-sdg-site/13">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/13.png" alt="Climate action - Goal 13" width="100" height="100" id="goal-13"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/13">Climate action</a>
+            <a href="/vs-sdg-site/13">Climate action</a>
             <span class="total">8 indicators</span>
           </h3>
           <div class="summary">
@@ -861,13 +861,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/14">
+          <a href="/vs-sdg-site/14">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/14.png" alt="Life below water - Goal 14" width="100" height="100" id="goal-14"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/14">Life below water</a>
+            <a href="/vs-sdg-site/14">Life below water</a>
             <span class="total">10 indicators</span>
           </h3>
           <div class="summary">
@@ -901,13 +901,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/15">
+          <a href="/vs-sdg-site/15">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/15.png" alt="Life on land - Goal 15" width="100" height="100" id="goal-15"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/15">Life on land</a>
+            <a href="/vs-sdg-site/15">Life on land</a>
             <span class="total">14 indicators</span>
           </h3>
           <div class="summary">
@@ -941,13 +941,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/16">
+          <a href="/vs-sdg-site/16">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/16.png" alt="Peace and justice - strong institutions - Goal 16" width="100" height="100" id="goal-16"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/16">Peace and justice - strong institutions</a>
+            <a href="/vs-sdg-site/16">Peace and justice - strong institutions</a>
             <span class="total">23 indicators</span>
           </h3>
           <div class="summary">
@@ -981,13 +981,13 @@ var translations = {
       <br style="clear:both;">
     </div><div class="goal reporting-status-item">
         <div class="frame goal-tiles">
-          <a href="/open-sdg-site-starter/17">
+          <a href="/vs-sdg-site/17">
             <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/17.png" alt="Partnerships for the goals - Goal 17" width="100" height="100" id="goal-17"/>
           </a>
         </div>
         <div class="details">
           <h3 class="status-goal">
-            <a href="/open-sdg-site-starter/17">Partnerships for the goals</a>
+            <a href="/vs-sdg-site/17">Partnerships for the goals</a>
             <span class="total">25 indicators</span>
           </h3>
           <div class="summary">
@@ -1048,7 +1048,7 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/open-sdg-site-starter/about/cookies-and-privacy/">Cookies</a>
+                <a href="/vs-sdg-site/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
@@ -1084,7 +1084,7 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20201105032936'></script>
+<script src='/vs-sdg-site/assets/js/sdg.js?v=20201105061243'></script>
 
 <script>
 $(function() {
